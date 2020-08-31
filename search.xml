@@ -64,9 +64,21 @@
       <link href="/2020/08/27/vercel/"/>
       <url>/2020/08/27/vercel/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>博主太懒了还没抽出时间呢<br>未完待续</p><p><img src= "/img/loading.gif" data-lazy-src="/2020/08/27/vercel/2.png"></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>博客搭建之后，光秃秃的不好看，先是花了不少精力将主题换成了好看的butterfly，遇到了不少坑，但是发现访问速度异常之慢，于是决定将博客部署到Vercel进行提速，效果确实明显，加载速度快到泪目</p><h3 id="导入-GitHub-仓库"><a href="#导入-GitHub-仓库" class="headerlink" title="导入 GitHub 仓库"></a>导入 GitHub 仓库</h3><p>Vercel 是一个静态网页部署网站，并不托管代码。因此，我们通过 GitHub 来托管 hexo deploy 生成的网页文件，并设置自动导入。当你的源代码仓库有变动后，Vercel 会第一时间检测到并重新部署网站，部署完成后会通过邮件提醒。</p><p><a href="https://vercel.com/signup">点击进入vercel官网</a>点击 Continue with GitHub<br><img src= "/img/loading.gif" data-lazy-src="/2020/08/27/vercel/3.png"></p><p><strong>注意：如果出现下图，需要将github绑定的邮箱中的qq邮箱先删除，等博客部署到vercel之后再将qq邮箱重新绑定github</strong><br><img src= "/img/loading.gif" data-lazy-src="/2020/08/27/vercel/4.png"></p><p>授权完成后，选择 Import Git Repository，点击 Continue，进入如下界面。输入你的仓库 url（https），就是github上博客项目的项目url。<br><img src= "/img/loading.gif" data-lazy-src="/2020/08/27/vercel/5.png"></p><p>然后按照默认设置Install Vercel就行</p><p>然后还有自定义域名和重定向的功能，就不一一细说啦</p><p><img src= "/img/loading.gif" data-lazy-src="/2020/08/27/vercel/2.png"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
       
     </entry>
     
